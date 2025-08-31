@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blinkit Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <!--i am creating  three  divs that are (headerleft,searchbox,haaderbtn)-->
+        <div class="headerleft">
+            
+            <div class="logo">
+               <a href="https://blinkit.com/" target="_blank">
+                <svg width="134" height="30" viewBox="0 0 114 30" fill="none"
+                 xmlns="http://www.w3.org/2000/svg"><path d="M14.3342 7.186C16.2619 7.186
+                 17.9832 7.66644 19.4978 8.62732C21.0262 9.57447 22.2242 10.9197 23.0917 
+                 12.663C23.9316 14.3377 24.3516 16.3075 24.3516 18.5724C24.3516 20.7687 
+                 23.9316 22.7316 23.0917 24.4612C22.2517 26.1908 21.0675 27.5429 19.5391 
+                 28.5175C17.9969 29.5058 16.2619 30 14.3342 30C12.9297 30 11.6078 29.7117 
+                 10.3685 29.1352C9.12927 28.5587 8.06901 27.7488 7.18775 26.7056V29.4852H0V0H7.18775V10.4598C8.06901
+                  9.41661 9.12927 8.61359 10.3685 8.05079C11.6078 7.47426 12.9297 7.186 14.3342 7.186ZM12.1861 24.0494C13.2051 24.0494 14.1139 23.8161 14.9125 23.3493C15.7112 22.8826 16.3377 22.2306 16.7921 21.3933C17.2465 20.5697 17.4737 19.6294 17.4737 18.5724C17.4737 17.5429 17.2465 16.6095 16.7921 15.7721C16.3377 14.9348 15.7112 14.2828 14.9125 13.8161C14.1139 13.3493 13.2051 13.116 12.1861 13.116C11.2223 13.116 10.3617 13.3493 9.60432 13.8161C8.84699 14.269 8.2549 14.9073 7.82804 15.731C7.40118 16.5683 7.18775 17.5154 7.18775 18.5724C7.18775 19.6294 7.40118 20.5765 7.82804 21.4139C8.2549 22.2375 8.84699 22.8826 9.60432 23.3493C10.3617 23.8161 11.2223 24.0494 12.1861 24.0494Z" fill="#F8CB46"></path><path d="M25.3356 29.4852V0H32.5233V29.4852H25.3356Z" fill="#F8CB46"></path><path d="M57.2319 7.186C58.7603 7.186 60.1372 7.5429 61.3627 8.25669C62.5882 8.95676 63.5521 9.94509 64.2544 11.2217C64.9291 12.512 65.2664 13.9739 65.2664 15.6074V29.4852H58.4092V17.2135C58.4092 16.4173 58.2508 15.7104 57.9341 15.0927C57.6312 14.4612 57.1974 13.9739 56.6329 13.6307C56.0821 13.2876 55.4349 13.116 54.6914 13.116C53.9891 13.116 53.3419 13.2876 52.7498 13.6307C52.1577 13.9602 51.6965 14.4132 51.366 14.9897C51.0218 15.5388 50.8496 16.1839 50.8496 16.9252L50.8083 29.4852H43.6619V7.68016H50.8083V10.1716C51.483 9.23816 52.3849 8.51064 53.5141 7.98902C54.6432 7.45367 55.8824 7.186 57.2319 7.186Z" fill="#F8CB46"></path><path d="M34.5607 29.4852V7.68016H41.7071V29.4852H34.5607Z" fill="#F8CB46"></path><path d="M81.0597 17.2135L89.1769 29.4852H81.0597L76.3091 21.7639L74.1198 24.2965V29.4852H66.932V0H74.1198V16.2869L81.0184 7.68016H89.1356L81.0597 17.2135Z" fill="#F8CB46"></path><path d="M34.5569 0.00232667H41.7267V5.59207H34.5569V0.00232667Z" fill="#F8CB46"></path><path d="M90.3176 29.4198V7.61479H97.464V29.4198H90.3176Z" fill="#54B226"></path><path d="M112.575 23.2634L114 27.855C113.353 28.4727 112.534 28.9737 111.542 29.3581C110.564 29.7424 109.607 29.9346 108.671 29.9346C107.322 29.9346 106.117 29.6395 105.057 29.0492C103.996 28.4452 103.17 27.6079 102.578 26.5372C101.986 25.494 101.69 24.2929 101.69 22.9339V13.3183H98.819V7.61479H101.69V0.00241089H108.547V7.61479H113.071V13.3183H108.547V21.6161C108.547 22.3162 108.733 22.8859 109.105 23.3251C109.477 23.7644 109.952 23.984 110.53 23.984C110.943 23.984 111.329 23.9223 111.687 23.7987C112.045 23.6752 112.341 23.4967 112.575 23.2634Z" fill="#54B226"></path><path d="M90.2609 0.00241089H97.4307V5.59215H90.2609V0.00241089Z" fill="#54B226"></path></svg></div>
+                </a>
+                  <div class="headeraddress">
+                    <a href="https://www.google.com/maps/place/Balahata,+Bihar+841438/@26.3937617,84.3061288,13.79z/data=!4m15!1m8!3m7!1s0x3993013238842db1:0x53a6e742b9a5d02!2sBalahata,+Bihar+841438!3b1!8m2!3d26.3969746!4d84.3265492!16s%2Fg%2F11khx_g7z8!3m5!1s0x3993013238842db1:0x53a6e742b9a5d02!8m2!3d26.3969746!4d84.3265492!16s%2Fg%2F11khx_g7z8?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                <h3>Dellivery in 8 minutes</h3>
+                <p>Balahata Post Balesra (Bihar) 841438,India</p>
+               </a>
+            </div>
+        </div>
+        <form class="searchbox">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input type="text-" placeholder="What do you want in 10 minutes? Please Type Here "
+        </form>
+        <div class="headerbtn">
+            <a href="https://blinkit.com/" target="_blank">
+            <button>Login</button></a>
+            <button <i class="fa-solid fa-cart-shopping"></i > My Cart</button>
+        </div>
+    </header>
+
+    <!--There are i am create one section for adding bannner -->
+    <section class="bannersection">
+        <a href="https://blinkit.com/cn/rolling-paper/cid/229/1982" target="_blank"></a>
+        <img src="Bannersection-logo.png" alt="logo">
+    </a>
+    </section>
+    
+    <section class="OrderBanner">
+        <!-- There are three create div class where represents images and redirects original  pages -->
+        <div class="orderBannerItems">
+            <img src="orderbanneritem No-1.png" alt="No-1png">
+        </div>
+        <div class="orderBannerItems">
+            <img src="orderbanneritem No-2.png" alt="No-2png">
+        </div>
+        <div class="orderBannerItems">
+            <img src="orderbanneritem NO-3.png" alt="No-3png">
+        </div>
+    </section>
+    
+    <section class="categorySection">
+        <!--There are creating 16 divs and insert png file that are reflect on the page -->
+        <div class="categoryItems">
+            <img src="CategoryItems No-1.png" alt="No-1">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-2.png" alt="No-2">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-3.png" alt="No-3">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-4.png" alt="No-4">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-5.png" alt="No-5">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-6.png" alt="No-6">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-7.png" alt="No-7">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-8.png" alt="No-8">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-9.png" alt="No-9">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-10.png" alt="No-10">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-11.png" alt="No-11">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-12.png" alt="No-12">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-13.png" alt="No-13">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-14.png" alt="No-14">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-15.png" alt="No-15">
+        </div>
+        <div class="categoryItems">
+            <img src="CategoryItems No-16.png" alt="No-16">   
+        </div>                                                    
+        
+    </section>
+
+      <section class="productsection">
+    <div class="headingRow">
+        <h2>Dairy,Bread & Eggs</h2>
+
+        <div class="productRow">
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314"
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Amul Salted Butter</h3>
+                    <p>500 g</p>
+                    <div class="btn-price-outer">
+                        <b>₹295</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+              <!--2 nd items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/329549a.jpg?ts=1690805806"
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Mother Dairy Classic Cup Curd</h3>
+                    <p>400 q</p>
+                    <div class="btn-price-outer">
+                        <b>₹50</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--3rd items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/86446a.jpg?ts=1687948913"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Mother Dairy Classic Pouch Curd</h3>
+                    <p>400 q</p>
+                    <div class="btn-price-outer">
+                        <b>₹35</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--4 items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/987e28e2-ca19-493a-9a1f-8dd09865b160.jpg?ts=1739354504"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Table White Eggs</h3>
+                    <p>10 Pieces</p>
+                    <div class="btn-price-outer">
+                        <b>₹79</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--5th Items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/c2b22cd4-b144-4266-901a-ff4ae82aa912.jpg?ts=1726473621"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>English Oven Zero maida 100% Atta/ Wheat Bread</h3>
+                    <p>500 q</p>
+                    <div class="btn-price-outer">
+                        <b>₹39</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--6th items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0f895474-ac1e-4f52-9587-891e32ab1ba9.jpg?ts=1707312315"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Amul Pure Milk Cheese Slices</h3>
+                    <p>200 q</p>
+                    <div class="btn-price-outer">
+                        <b>₹145</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>    <!--end of the items -->
+        </div>
+    </div>
+    <!-- 2nd Category insert-->
+    <div class="headingRow">
+        <h2>Rolling paper & tobacco</h2>
+
+        <div class="productRow">
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/661d1bd8-2374-47ad-b231-af4842bd5d50.jpg?ts=1740560975"
+                  <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p> 
+                </div>
+                <div class="producrcontent">
+                    <h3>Perfect Rolled Cones (Natural) - Bongchie</h3>
+                    <p>3 Packs</p>
+                    <div class="btn-price-outer">
+                        <b>₹45</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+              <!--2 nd items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506375a.jpg?ts=1698309252"
+                   <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Brown Ripper Rolling Paper 32 Leaves + 32 Roaches Stash Pro</h3>
+                    <p>1 pack (64 pieces)</p>
+                    <div class="btn-price-outer">
+                        <b>₹120</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--3rd items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/05bba76b-a41d-4519-9a38-7048c5e0bb9c.jpg"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Burning Desire Pink Cone Rolling Paper by Stash Pro</h3>
+                    <p>1 pack (6 pieces)</p>
+                    <div class="btn-price-outer">
+                        <b>₹100</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--4 items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/4d3ca0ba-4751-426c-a329-36e0279ee140.jpg?ts=1738749189"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Flavoured Pre Rolled Cones by Sesh</h3>
+                    <p>1 pack (6 rolls)</p>
+                    <div class="btn-price-outer">
+                <b>₹120</b>
+
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--5th Items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/5b811154-db15-456d-a219-13edaa288ab7.jpg?ts=1725020018"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Colour Roach - Stash Pro</h3>
+                    <p>32 Sheets</p>
+                    <div class="btn-price-outer">
+                        <b>₹50</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--6th items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/e0c43658-ac76-4e87-8b8e-bf5422d25cbd.jpg?ts=1735813386"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>White Rolling Paper Tips - Elements</h3>
+                    <p>1 pack (50 pieces)</p>
+                    <div class="btn-price-outer">
+                        <b>₹50</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>    <!--end of the items -->
+        </div>
+    </div>
+    <!--3rd Category Insert-->
+    <div class="headingRow">
+        <h2>Snacks & Munchies</h2>
+
+        <div class="productRow">
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6265c933-0619-4ce1-ae4b-6c9336902295.jpg?ts=1723098571"
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Kettle Studio Rock Sea Salt & English Vinegar Potato Chips
+                    </h3>
+                    <p>113 g</p>
+                    <div class="btn-price-outer">
+                        <b>₹99</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+              <!--2 nd items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/31e68f60-d84b-4f85-8b4a-7e76abb52b1e.jpg?ts=1731479533"
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Protein Chef Madras Namkeen Mixture High Protein Healthy Snacks</h3>
+                    <p>90 g</p>
+                    <div class="btn-price-outer">
+                        <b>₹99</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--3rd items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/1f3a0e5b-26f8-4f7d-a0c0-e6410f763ab5.jpg?ts=1735649560"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Moi Soi White Rice Paper</h3>
+                    <p>100 g</p>
+                    <div class="btn-price-outer">
+                        <b>₹174</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--4 items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/79f7319a-f048-48db-ab5a-00a6d2911ea3.jpg?ts=1723098575"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Kettle Studio Crushed Peprika with Exotic Spices Potato Chips</h3>
+                    <p>113 g</p>
+                    <div class="btn-price-outer">
+                        <b>₹99</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--5th Items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6807f54d-f711-49ca-9635-514ac9b72d7f.jpg?ts=1724850859"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Kettle Studio Sharp Jalapenos & Cream Cheese Potato Chips</h3>
+                    <p>56 g</p>
+                    <div class="btn-price-outer">
+                        <b>₹47</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--6th items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/bebe562d-c417-465b-9b12-4d612f48d08a.jpg?ts=1723098763"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Nongshim Shrimp Flavoured Hot & Spicy Crackers Chips</h3>
+                    <p>75 g</p>
+                    <div class="btn-price-outer">
+                        <b>₹129</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>    <!--end of the items -->
+        </div>
+    </div>
+
+    <!--4th  Category Items  inserts -->
+    <div class="headingRow">
+        <h2>Cold Drinks & Juices</h2>
+
+        <div class="productRow">
+            <!-- 1st items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6b98633c-7c6a-4708-a372-e2b49da568ab.jpg?ts=1707312322"
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Coca-Cola Soft Drink (750 ml)</h3>
+                    <p>750ml</p>
+                    <div class="btn-price-outer">
+                        <b>₹40</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+              <!--2 nd items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/482620a.jpg?ts=1690813234"
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Ice Cubes by Dras Ice</h3>
+                    <p>1 kg</p>
+                    <div class="btn-price-outer">
+                        <b>₹75</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--3rd items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/69f0f056-056d-430e-9352-e94cf40c521f.jpg?ts=1723635872"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Bisleri Mineral Water (1 l) - Pack of 12</h3>
+                    <p>12 x 1 ltr</p>
+                    <div class="btn-price-outer">
+                        <b>₹238</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--4 items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0f87f19e-66da-48cd-8c75-343abf732948.jpg?ts=1707312325"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Sprite Lime Flavored Soft Drink 750 ml</h3>
+                    <p>750 ml</p>
+                    <div class="btn-price-outer">
+                        <b>₹40</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--5th Items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/600dd9ff-659c-4817-87e7-eec1dea72c63.jpg?ts=1706182144"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Amul Lactose Free Milk</h3>
+                    <p>250 ml</p>
+                    <div class="btn-price-outer">
+                        <b>₹25</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+            <!--6th items -->
+            <div class="productItem">
+                <div class="productImage">
+                   <img  width="70%" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/f41b24f4-b0bd-4e33-bee4-14f9f6b00967.jpg"/>
+                  <p>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" width="15"/>
+                    8 min
+                  </p>
+                </div>
+                <div class="producrcontent">
+                    <h3>Coca-Cola Diet Coke Soft Drink</h3>
+                    <p>180 ml
+                    </p>
+                    <div class="btn-price-outer">
+                        <b>₹25</b>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>   
+             <!--end of the items -->
+        </div>
+    </div>
+      </section>
+
+      <footer>
+        <div class="footer-mid">
+            <!---we  are  dividing three parts of footer-mid that are divs row1,row2,& row3 -->
+          <div class="footer-mid-row1">
+            
+            <div class="footer-mid-row1-left">
+                <h3>Useful Links</h3>
+                <div class="quickslinks">
+                    <!--1st quick links-->
+                    <ul>
+                        <li>
+                            <a href="https://blinkit.com/aboutus" target="_blank">About</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/careers" target="_blank">Careers</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/blog/" target="_blank">Blog</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/press" target="_blank">Press</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/leadership" target="_blank">Lead
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/values" target="_blank">Value</a>
+                        </li>
+                    </ul>
+                    <!--2nd quick links-->
+                    <ul>
+                        <li>
+                            <a href="https://blinkit.com/privacy" target="_blank">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/terms" target="_blank">Terms</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/faq" target="_blank">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/security" target="_blank">Security</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/mobile" target="_blank">Mobile</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/contact" target="_blank">Contact</a>
+                        </li>
+                    </ul>
+                    <!--3rd quick links-->
+                    <ul>
+                        <li>
+                            <a href="https://blinkit.com/partner" target="_blank">Partner</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/franchise" target="_blank">Franchise</a>
+                        </li>
+                        <li>
+                            <a href="https://seller.blinkit.com/" target="_blank">Seller</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/warehouse-partner" target="_blank">Warehouse</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/delivery" target="_blank">Deliver</a>
+                        </li>
+                        <li>
+                            <a href="https://blinkit.com/resources" target="_blank">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-mid-row1-right">
+                <div class="categoryHreadingRow">
+                    <h3>Categories</h3>
+                    <a href="#">See all</a>
+                </div>
+                <!--There are used for redirect links on the website-->
+
+                <div class="footer-mid-row1-left">
+                    <div class="quickslinks">
+                        <!--1st quick links-->
+                        <ul>
+                            <li>
+                                <a href="https://blinkit.com/cn/fresh-vegetables/cid/1487/1489" target="_blank">Vegetables & Fruits</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/beverages-gift-packs/cid/332/1323" target="_blank">Cold Drinks & Juices</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/biscuit-gift-pack/cid/888/2380" target="_blank">Bakery & Biscuits
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/oil/cid/1557/917" target="_blank">Dry Fruits, Masala & Oil</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/cigarettes/cid/229/1948" target="_blank">Paan Corner
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/sexual-wellness/cid/287/741" target="_blank">Pharma & Wellness</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/sticks/cid/1969/263" target="_blank">Ice Creams & Frozen Desserts</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/body-skin-care/cid/13/206" target="_blank">Beauty & Cosmetics</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/appliances/cid/5159/1886" target="_blank">Electronics & Electricals</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/action-figures/cid/675/397" target="_blank">Toys & Games</a>
+                            </li>
+                        </ul>
+                        <!--2nd quick links-->
+                        <ul>
+                            <li>
+                                <a href="https://blinkit.com/cn/milk/cid/14/922" target="_blank">Dairy & Breakfast</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/noodles/cid/15/962" target="_blank">Instant & Frozen Food</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/indian-sweets/cid/9/943" target="_blank">Sweet Tooth</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/tomato-chilli-ketchup/cid/972/277" target="_blank">Sauces & Spreads</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/oil-ghee/cid/175/799" target="_blank">Organic & Premium</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/fresheners/cid/18/1085" target="_blank">Cleaning Essentials</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/face-body-moisturizers/cid/163/690" target="_blank">Personal Care</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/current-affairs-business/cid/851/1015"
+                                target="_blank">Magazines</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/arts-crafts/cid/5515/5516" target="_blank">Stationery Needs</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/print" target="_blank">Print Store</a>
+                            </li>
+                        </ul>
+                        <!--3rd quick links-->
+                        <ul>
+                            <li>
+                                <a href="https://blinkit.com/cn/chips-crisps/cid/1237/940" target="_blank">Munchies</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/tea/cid/12/957" target="_blank">Tea, Coffee & Health Drinks</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/atta/cid/16/1165" target="_blank">Atta, Rice & Dal</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/fresh-meat/cid/4/1201" target="_blank">Chicken, Meat & Fish</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/diapers-more/cid/7/1000" target="_blank">Baby Care</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/kitchen-dining-needs/cid/1379/1052" target="_blank">Home & Office</a>
+                            </li>
+                            <li><a href="https://blinkit.com/cn/accessories-other-supplies/cid/5/3609" target="_blank">Pet Care</li>
+                            <li>
+                                <a href="https://blinkit.com/cn/bags/cid/5305/120" target="_blank">Fashion & Accessories</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/childrens-books/cid/1559/273" target="_blank">Books</a>
+                            </li>
+                            <li>
+                                <a href="https://blinkit.com/cn/e-cards/cid/416/4301" target="_blank">E-Gift Cards</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+          </div>
+        </div>
+      <div class="socialmedia">
+          <div class="part1">
+            <h5>© Blink Commerce Private Limited, 2016-2025</h4>
+          </div>
+          <div class="part2">
+            
+            <h5>Download App</h5>
+                <a href="https://apps.apple.com/in/app/blinkit-grocery-in-10-minutes/id960335206" target="_blank">
+                <img width="93" src="https://blinkit.com/d61019073b700ca49d22.png" alt=""></a>
+                <a href="https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en_IN&gl=US&pli=1" target="_blank">
+                <img width="93"src="https://blinkit.com/8ed033800ea38f24c4f0.png" alt=""></a>
+
+                <div class="part3">
+                   <a href="https://www.facebook.com/blinkit.india/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/letsblinkit/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/letsblinkit/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/company/letsblinkit" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.threads.com/@letsblinkit" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                </div>
+          </div>
+      </div>
+      <div class="extrainformation">
+        <p>“Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.</p>
+      </div>
+    </div>
+</footer>
+   
+</body>
+</html>
